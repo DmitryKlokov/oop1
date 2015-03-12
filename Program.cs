@@ -1,36 +1,31 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using System.IO;
 
-namespace oop_1
+namespace oop
 {
-    public class Program
+    class Program
     {
-        public static int max_nominals=10;
+        public static int max_nominals = 10;
         public static List<Money> list_money;
+
         public static void InputMoney()
         {
             list_money = new List<Money>();
-            StreamReader sr = new StreamReader("Money.txt");
-            string line = "";
-            while ((line = sr.ReadLine()) != null)
+            try
             {
-                string[] split = line.Split(new char[] {' ','\t'});
-                Money m = new Money(uint.Parse(split[0]), uint.Parse(split[1]));
-                list_money.Add(m);
+                StreamReader sr = new StreamReader("Money.txt");            
+                string line = "";
+                while ((line = sr.ReadLine()) != null)
+                {
+                    string[] split = line.Split(new char[] { ' ', '\t' });
+                    Money m = new Money(uint.Parse(split[0]), uint.Parse(split[1]));
+                    list_money.Add(m);
+                }
             }
+            catch (Exception e) { Console.WriteLine("Ошибка при чтении файла"); }
         }
-        public static void OutputMoney_on_console()
-        {
-            foreach (Money m in list_money)
-            {
-                Console.WriteLine("Номинал: " + m.nominal + " Количество: " + m.Count);
-            }
-        }
+
         public static void ADD_Money(Money a)
         {
             list_money[list_money.FindIndex(m => m.nominal == a.nominal)].Count++;
@@ -40,52 +35,50 @@ namespace oop_1
             foreach (Money m in abc)
             {
                 ADD_Money(m);
-            } 
+            }
         }
-        public static void delete_money(ref List<Money> abc,ref uint a)
+        public static void delete_money(ref List<Money> abc, ref uint a)
         {
-             ADD_Money(abc[abc.Count - 1]);//вернули валюту
-             a -= abc[abc.Count - 1].nominal;//отняли от нашей суммы
-             abc.RemoveAt(abc.Count - 1);//удалили из суммы  
+            ADD_Money(abc[abc.Count - 1]);//вернули валюту
+            a -= abc[abc.Count - 1].nominal;//отняли от нашей суммы
+            abc.RemoveAt(abc.Count - 1);//удалили из суммы  
         }
-
         public static List<Money> get_Nominals(uint money)
         {
-            uint a = 0; 
-            int i = 0;
-            int c = 1;
-            List<Money> abc =  new List<Money>();
-            while (money != a)
+            uint sum = 0;
+            int index = 0;
+            List<Money> abc = new List<Money>();
+            while (money != sum)
             {
-                if ((money - a) >= list_money[i].nominal && list_money[i].Count > 0)
+                if ((money - sum) >= list_money[index].nominal && list_money[index].Count > 0)
                 {
-                     a += list_money[i].nominal;
-                     abc.Add(new Money(list_money[i].nominal, 1));
-                     list_money[i].Count -= 1;
+                    sum += list_money[index].nominal;
+                    abc.Add(new Money(list_money[index].nominal, 1));
+                    list_money[index].Count -= 1;
                 }
                 else
                 {
-                    i++;
-                    if (i == list_money.Count)
+                    if (index == list_money.Count - 1)
                     {
-                        if (abc[abc.Count - 1].nominal == list_money[list_money.Count - 1].nominal)
+                        while (abc.Count != 0 && abc[abc.Count - 1].nominal == list_money[list_money.Count - 1].nominal)
                         {
-                            int b = abc.Count;
-                            for (int j = b - c; j < b; j++)
-                            {
-                                i = list_money.FindIndex(m => m.nominal == abc[abc.Count - 1].nominal) + 1;//нашли индекс 
-                                delete_money(ref abc, ref a);
-                            }
-                            c++;
-                            if (abc.Count == 0) c = 1;
-                            if (i == list_money.Count) i -= 1;
+                            delete_money(ref abc, ref sum);
                         }
-                        else 
+                        if (abc.Count != 0)
                         {
-                            i = list_money.FindIndex(m => m.nominal == abc[abc.Count - 1].nominal) + 1;//нашли индекс 
-                            delete_money(ref abc, ref a);
+
+                            index = list_money.FindIndex(m => m.nominal == abc[abc.Count - 1].nominal);//нашли индекс 
+                            delete_money(ref abc, ref sum);
+                        }
+                        else
+                        {
+                            Console.WriteLine("не могу");
+                            return_money(abc);
+                            abc.Clear();
+                            return abc;
                         }
                     }
+                    index++;
                 }
             }
             if (abc.Count > max_nominals)
@@ -96,23 +89,32 @@ namespace oop_1
             }
             return abc;
         }
+
+        public static void Show_Money(List<Money> list)
+        {
+            foreach (Money m in list)
+            {
+                Console.WriteLine("Номинал: " + m.nominal + " Количество: " + m.Count);
+            }
+        }
+
         static void Main(string[] args)
         {
-            
-                InputMoney();
-                list_money.Sort((A, B) => B.nominal.CompareTo(A.nominal));
-                while (true)
+            InputMoney();
+            list_money.Sort((A, B) => B.nominal.CompareTo(A.nominal));
+            uint sum = 0;
+            while (true)
+            {
+                Console.WriteLine("Input sum: ");
+                try
                 {
-                OutputMoney_on_console();
-                Console.WriteLine("Введите сумму: ");
-                uint sum = uint.Parse(Console.ReadLine());
-                List<Money> a = get_Nominals(sum);
-                foreach (Money m in a)
-                {
-                    Console.WriteLine(m.nominal);
+                     sum= uint.Parse(Console.ReadLine());
                 }
+                catch { sum = 0; Console.WriteLine("Некорректный ввод "); }
+                List<Money> money = get_Nominals(sum);
+                Show_Money(money);
+                Console.WriteLine("\n\n\n");
             }
-            
         }
     }
 }
