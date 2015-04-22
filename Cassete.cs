@@ -8,8 +8,8 @@ namespace oop
 {
     public class Cassete
     {
-        public uint nominal = 0;
-        public uint Count = 0;
+        public uint nominal;
+        public uint Count;
         public Cassete(uint nominal, uint Count)
         {
             this.nominal = nominal;

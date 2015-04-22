@@ -1,50 +1,62 @@
 ﻿using System;
 using System.Collections.Generic;
+using log4net;
 
 namespace oop
 {
-    public class ATM
+    class ATM
     {
-        List<Cassete> listCassete;
-        stateATM st;
-
-        public ATM()
+        public List<Cassete> listCassete;
+        public List<Cassete> decomposition;
+        public State state;
+        public static readonly ILog log = LogManager.GetLogger(typeof(ATM));
+        private uint TotalSum 
         {
-            LoadCassete();
+            get
+            {
+                uint sum = 0;
+                foreach (Cassete c in listCassete) { sum += c.nominal * c.Count; }         
+                return sum;
+            }
         }
 
-        private void LoadCassete()
+        public List<Cassete> DifferenceList(List<Cassete> A, List<Cassete> B)
         {
-            CassetesLoader c = new CassetesLoader("Money.txt");
-            if (c.state == stateLoad.AllOK)
+            int index;
+            foreach (Cassete m in B)
             {
-                listCassete = c.LoadingCassete();
-                st = stateATM.AllOK;
+                index = A.FindIndex(l => l.nominal == m.nominal);
+                A[index].Count -= m.Count;
             }
-            else
-            {
-                Console.WriteLine("Error: " + c.state.ToString());
-                st = stateATM.NoMoney;
-            }
+            return A;
         }
         public void outMoney(uint sum)
         {
-            DecompositionAlgorithm da = new DecompositionAlgorithm(listCassete, sum);
-            if (da.state == stateAlgorithm.AllOK)
+            state = State.AllOK;
+            log.Debug("Try otput " + sum.ToString());
+            if (sum <= TotalSum)
             {
-                Show_Money(da.OutMoney());
+                DecompositionAlgorithm da = new DecompositionAlgorithm();
+
+                da.StartAlgorithm(listCassete, sum);
+                if (da.state == State.AllOK)
+                {
+                    DifferenceList(listCassete, da.OutMoney());
+                    decomposition = new List<Cassete>(da.OutMoney());
+                    log.Info(da.state);
+                    log.Info("ATM balance: "+TotalSum);
+                }
+                else 
+                {
+                    state = da.state; 
+                    log.Warn(state);
+                    log.Warn("ATM balance: " + TotalSum);
+                }
             }
             else
             {
-                Console.WriteLine("Error " + da.state);
-            }
-        }
-
-        private void Show_Money(List<Cassete> list)
-        {
-            foreach (Cassete m in list)
-            {
-                Console.WriteLine("Номинал: " + m.nominal);
+                state = State.CombinationFailed;
+                log.Warn("Sum"+sum.ToString()+"> Total Sum");
             }
         }
 

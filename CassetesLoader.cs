@@ -1,36 +1,57 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using log4net;
 
 namespace oop
 {
     public class CassetesLoader
     {
-        private List<Cassete> list_money;
+        private List<Cassete> listCassete;        
 
-        public stateLoad state;
+        public State state;
 
-        public CassetesLoader (string Cassete)
+        public static readonly ILog log = LogManager.GetLogger(typeof(CassetesLoader));
+
+        public void Load(string address)
         {
-            list_money = new List<Cassete>();
+            log.Info("Try load cassetes"); 
+            listCassete = new List<Cassete>();
             try
             {
-                StreamReader sr = new StreamReader(Cassete);
+                StreamReader sr = new StreamReader(address);
                 string line = "";
                 while ((line = sr.ReadLine()) != null)
                 {
                     string[] split = line.Split(new char[] { ' ', '\t' });
                     Cassete m = new Cassete(uint.Parse(split[0]), uint.Parse(split[1]));
-                    list_money.Add(m);
+                    listCassete.Add(m);
                 }
-                if (list_money.Count == 0) { state = stateLoad.NoCassete; }
-                else state = stateLoad.AllOK;
+                if (listCassete.Count == 0) 
+                { 
+                    state = State.NoCassete;
+                    log.Error(state);
+                }
+                else 
+                { 
+                    state = State.AllOK;
+                    log.Info(state); 
+                }
+                
             }
-            catch (Exception e) { Console.WriteLine(e.ToString()); state = stateLoad.Error; }
+            catch 
+            {
+                state = State.Error;
+                log.Error(state);
+            }
         }
+
+
+
         public List<Cassete> LoadingCassete()
         {
-            return list_money;
+            listCassete.Sort((A, B) => B.nominal.CompareTo(A.nominal));
+            return listCassete;
         }
     }
 }
