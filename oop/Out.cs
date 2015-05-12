@@ -1,18 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace oop
 {
-    class Out
+    public class Out
     {
         public void ShowListOnConsole(List<Cassete> list)
         {
             foreach (Cassete m in list)
             {
-                Console.WriteLine("Номинал: " + m.nominal + " кол " + m.Count);
+                Console.WriteLine("Номинал: " + m.Nominal + " кол " + m.Count);
             }
         }
         public void ShowString(string str)

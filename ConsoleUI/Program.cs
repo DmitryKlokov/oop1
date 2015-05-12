@@ -1,32 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
 using log4net;
-using log4net.Config;
+using oop;
 
-
-namespace oop
+namespace ConsoleUI
 {
-    class Program
-    { 
+    internal class Program
+    {
 
-        static private void LoadCassete(ATM atm)
+        private static void LoadCassete(Atm atm)
         {
             CassetesLoader cl = new CassetesLoader();
             cl.Load("Money.txt");
-            if (cl.state == State.AllOK)
+            if (cl.State == State.AllOk)
             {
-                atm.listCassete = cl.LoadingCassete();
-                atm.state = State.AllOK;
+                atm.ListCassete = cl.LoadingCassete();
+                atm.State = State.AllOk;
             }
             else
             {
-                atm.state = State.NoCassete;
-            } 
+                atm.State = State.NoCassete;
+            }
         }
 
-        public static readonly ILog log = LogManager.GetLogger(typeof(CassetesLoader));
+        public static readonly ILog Log = LogManager.GetLogger(typeof(Program));
 
-        static private void InputSum(Out oUt,ref uint sum)
+        private static void InputSum(Out oUt, ref uint sum)
         {
             while (true)
             {
@@ -34,24 +32,24 @@ namespace oop
                 try
                 {
                     sum = uint.Parse(oUt.ReadStr());
-                    log.Debug("Input sum: " + sum);
+                    Log.Debug("Input sum: " + sum);
                     break;
                 }
                 catch
                 {
                     oUt.ShowString("Incorrect input\n\n");
-                    log.Warn("Incorrect input");
+                    Log.Warn("Incorrect input");
                 }
             }
-        }        
+        }
 
-        static void Main(string[] args)
+        private static void Main()
         {
             log4net.Config.DOMConfigurator.Configure();
-            log.Info("<<Begin program>>");
+            Log.Info("<<Begin program>>");
             try
             {
-                ATM atm = new ATM();
+                Atm atm = new Atm();
                 Out oUt = new Out();
 
                 LoadCassete(atm);
@@ -59,21 +57,21 @@ namespace oop
                 while (true)
                 {
                     InputSum(oUt, ref sum);
-                    atm.outMoney(sum);
-                    if (atm.state == State.AllOK)
+                    atm.OutMoney(sum);
+                    if (atm.State == State.AllOk)
                     {
-                        oUt.ShowListOnConsole(atm.decomposition);
+                        oUt.ShowListOnConsole(atm.Decomposition);
                     }
                     else
                     {
-                        oUt.ShowString(atm.state.ToString());
+                        oUt.ShowString(atm.State.ToString());
                     }
                     oUt.ShowString("\n");
                 }
             }
             catch (Exception e)
             {
-                log.Fatal(e.Message);
+                Log.Fatal(e.Message);
             }
         }
     }
