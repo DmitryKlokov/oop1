@@ -1,0 +1,24 @@
+2015-04-22 09:50:04,156 [INFO] oop.CassetesLoader : <<Begin program>>
+2015-04-22 09:50:04,177 [INFO] oop.CassetesLoader : Try load cassetes
+2015-04-22 09:50:04,183 [INFO] oop.CassetesLoader : AllOK
+2015-04-22 09:50:05,286 [DEBUG] oop.CassetesLoader : Input sum: 600
+2015-04-22 09:50:05,288 [DEBUG] oop.ATM : Try otput 600
+2015-04-22 09:50:05,295 [INFO] oop.ATM : AllOK
+2015-04-22 09:50:05,295 [INFO] oop.ATM : ATM balance: 10500
+2015-04-22 09:50:07,336 [DEBUG] oop.CassetesLoader : Input sum: 200
+2015-04-22 09:50:07,337 [DEBUG] oop.ATM : Try otput 200
+2015-04-22 09:50:07,337 [INFO] oop.ATM : AllOK
+2015-04-22 09:50:07,337 [INFO] oop.ATM : ATM balance: 10300
+2015-04-22 09:50:09,141 [DEBUG] oop.CassetesLoader : Input sum: 150
+2015-04-22 09:50:09,141 [DEBUG] oop.ATM : Try otput 150
+2015-04-22 09:50:09,142 [INFO] oop.ATM : AllOK
+2015-04-22 09:50:09,142 [INFO] oop.ATM : ATM balance: 10150
+2015-04-22 09:50:10,703 [WARN] oop.CassetesLoader : Incorrect input
+2015-04-22 09:50:12,784 [DEBUG] oop.CassetesLoader : Input sum: 34
+2015-04-22 09:50:12,785 [DEBUG] oop.ATM : Try otput 34
+2015-04-22 09:50:12,785 [WARN] oop.ATM : CombinationFailed
+2015-04-22 09:50:12,785 [WARN] oop.ATM : ATM balance: 10150
+2015-04-22 09:50:15,092 [DEBUG] oop.CassetesLoader : Input sum: 200
+2015-04-22 09:50:15,092 [DEBUG] oop.ATM : Try otput 200
+2015-04-22 09:50:15,092 [INFO] oop.ATM : AllOK
+2015-04-22 09:50:15,093 [INFO] oop.ATM : ATM balance: 9950

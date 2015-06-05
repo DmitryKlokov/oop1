@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Statistic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CountMoneyLoad>11100</CountMoneyLoad>
+  <CountMoneyOut>0</CountMoneyOut>
+  <Date>2015-06-02T22:43:23.942637+03:00</Date>
+  <Sums>
+    <OutSum>
+      <Sum>1000</Sum>
+      <Date>2015-06-02T22:43:30.9199512+03:00</Date>
+    </OutSum>
+    <OutSum>
+      <Sum>100</Sum>
+      <Date>2015-06-02T22:44:04.4319675+03:00</Date>
+    </OutSum>
+  </Sums>
+  <Ls>
+    <Cassete>
+      <Nominal>200</Nominal>
+      <Count>20</Count>
+    </Cassete>
+    <Cassete>
+      <Nominal>100</Nominal>
+      <Count>30</Count>
+    </Cassete>
+    <Cassete>
+      <Nominal>50</Nominal>
+      <Count>30</Count>
+    </Cassete>
+    <Cassete>
+      <Nominal>20</Nominal>
+      <Count>30</Count>
+    </Cassete>
+  </Ls>
+</Statistic>

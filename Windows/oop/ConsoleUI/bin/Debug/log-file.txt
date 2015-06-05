@@ -1,0 +1,322 @@
+2015-04-22 09:50:04,156 [INFO] oop.CassetesLoader : <<Begin program>>
+2015-04-22 09:50:04,177 [INFO] oop.CassetesLoader : Try load cassetes
+2015-04-22 09:50:04,183 [INFO] oop.CassetesLoader : AllOK
+2015-04-22 09:50:05,286 [DEBUG] oop.CassetesLoader : Input sum: 600
+2015-04-22 09:50:05,288 [DEBUG] oop.ATM : Try otput 600
+2015-04-22 09:50:05,295 [INFO] oop.ATM : AllOK
+2015-04-22 09:50:05,295 [INFO] oop.ATM : ATM balance: 10500
+2015-04-22 09:50:07,336 [DEBUG] oop.CassetesLoader : Input sum: 200
+2015-04-22 09:50:07,337 [DEBUG] oop.ATM : Try otput 200
+2015-04-22 09:50:07,337 [INFO] oop.ATM : AllOK
+2015-04-22 09:50:07,337 [INFO] oop.ATM : ATM balance: 10300
+2015-04-22 09:50:09,141 [DEBUG] oop.CassetesLoader : Input sum: 150
+2015-04-22 09:50:09,141 [DEBUG] oop.ATM : Try otput 150
+2015-04-22 09:50:09,142 [INFO] oop.ATM : AllOK
+2015-04-22 09:50:09,142 [INFO] oop.ATM : ATM balance: 10150
+2015-04-22 09:50:10,703 [WARN] oop.CassetesLoader : Incorrect input
+2015-04-22 09:50:12,784 [DEBUG] oop.CassetesLoader : Input sum: 34
+2015-04-22 09:50:12,785 [DEBUG] oop.ATM : Try otput 34
+2015-04-22 09:50:12,785 [WARN] oop.ATM : CombinationFailed
+2015-04-22 09:50:12,785 [WARN] oop.ATM : ATM balance: 10150
+2015-04-22 09:50:15,092 [DEBUG] oop.CassetesLoader : Input sum: 200
+2015-04-22 09:50:15,092 [DEBUG] oop.ATM : Try otput 200
+2015-04-22 09:50:15,092 [INFO] oop.ATM : AllOK
+2015-04-22 09:50:15,093 [INFO] oop.ATM : ATM balance: 9950
+2015-05-12 08:58:56,208 [INFO] oop.CassetesLoader : <<Begin program>>
+2015-05-12 08:58:56,235 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-12 08:58:56,235 [INFO] oop.CassetesLoader : AllOK
+2015-05-12 08:58:58,264 [DEBUG] oop.CassetesLoader : Input sum: 400
+2015-05-12 08:58:58,266 [DEBUG] oop.ATM : Try otput 400
+2015-05-12 08:58:58,272 [INFO] oop.ATM : AllOK
+2015-05-12 08:58:58,272 [INFO] oop.ATM : ATM balance: 10700
+2015-05-12 08:59:00,682 [DEBUG] oop.CassetesLoader : Input sum: 200
+2015-05-12 08:59:00,682 [DEBUG] oop.ATM : Try otput 200
+2015-05-12 08:59:00,682 [INFO] oop.ATM : AllOK
+2015-05-12 08:59:00,682 [INFO] oop.ATM : ATM balance: 10500
+2015-05-12 08:59:02,697 [DEBUG] oop.CassetesLoader : Input sum: 1500
+2015-05-12 08:59:02,697 [DEBUG] oop.ATM : Try otput 1500
+2015-05-12 08:59:02,697 [INFO] oop.ATM : AllOK
+2015-05-12 08:59:02,697 [INFO] oop.ATM : ATM balance: 9000
+2015-05-12 08:59:04,645 [DEBUG] oop.CassetesLoader : Input sum: 2000
+2015-05-12 08:59:04,645 [DEBUG] oop.ATM : Try otput 2000
+2015-05-12 08:59:04,645 [INFO] oop.ATM : AllOK
+2015-05-12 08:59:04,645 [INFO] oop.ATM : ATM balance: 7000
+2015-05-12 08:59:06,212 [DEBUG] oop.CassetesLoader : Input sum: 3000
+2015-05-12 08:59:06,213 [DEBUG] oop.ATM : Try otput 3000
+2015-05-12 08:59:06,213 [INFO] oop.ATM : AllOK
+2015-05-12 08:59:06,213 [INFO] oop.ATM : ATM balance: 4000
+2015-05-12 08:59:07,876 [DEBUG] oop.CassetesLoader : Input sum: 2000
+2015-05-12 08:59:07,876 [DEBUG] oop.ATM : Try otput 2000
+2015-05-12 08:59:07,876 [INFO] oop.ATM : AllOK
+2015-05-12 08:59:07,877 [INFO] oop.ATM : ATM balance: 2000
+2015-05-12 08:59:10,080 [DEBUG] oop.CassetesLoader : Input sum: 1300
+2015-05-12 08:59:10,080 [DEBUG] oop.ATM : Try otput 1300
+2015-05-12 08:59:10,080 [INFO] oop.ATM : AllOK
+2015-05-12 08:59:10,080 [INFO] oop.ATM : ATM balance: 700
+2015-05-12 08:59:11,855 [DEBUG] oop.CassetesLoader : Input sum: 2000
+2015-05-12 08:59:11,855 [DEBUG] oop.ATM : Try otput 2000
+2015-05-12 08:59:11,856 [WARN] oop.ATM : Sum2000> Total Sum
+2015-05-12 08:59:13,847 [DEBUG] oop.CassetesLoader : Input sum: 300
+2015-05-12 08:59:13,847 [DEBUG] oop.ATM : Try otput 300
+2015-05-12 08:59:13,847 [INFO] oop.ATM : AllOK
+2015-05-12 08:59:13,847 [INFO] oop.ATM : ATM balance: 400
+2015-05-12 08:59:15,665 [DEBUG] oop.CassetesLoader : Input sum: 120
+2015-05-12 08:59:15,665 [DEBUG] oop.ATM : Try otput 120
+2015-05-12 08:59:15,665 [INFO] oop.ATM : AllOK
+2015-05-12 08:59:15,665 [INFO] oop.ATM : ATM balance: 280
+2015-05-12 08:59:17,164 [DEBUG] oop.CassetesLoader : Input sum: 4
+2015-05-12 08:59:17,164 [DEBUG] oop.ATM : Try otput 4
+2015-05-12 08:59:17,165 [WARN] oop.ATM : CombinationFailed
+2015-05-12 08:59:17,165 [WARN] oop.ATM : ATM balance: 280
+2015-05-12 19:58:02,081 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-12 19:58:02,115 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-12 19:58:02,125 [INFO] oop.CassetesLoader : AllOk
+2015-05-12 19:58:04,884 [DEBUG] ConsoleUI.Program : Input sum: 400
+2015-05-12 19:58:04,888 [DEBUG] oop.Atm : Try otput 400
+2015-05-12 19:58:04,909 [INFO] oop.Atm : AllOk
+2015-05-12 19:58:04,909 [INFO] oop.Atm : ATM balance: 10700
+2015-05-12 19:59:47,833 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-12 19:59:47,858 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-12 19:59:47,859 [INFO] oop.CassetesLoader : AllOk
+2015-05-12 19:59:50,103 [DEBUG] ConsoleUI.Program : Input sum: 400
+2015-05-12 19:59:50,105 [DEBUG] oop.Atm : Try otput 400
+2015-05-12 19:59:50,119 [INFO] oop.Atm : AllOk
+2015-05-12 19:59:50,119 [INFO] oop.Atm : ATM balance: 10700
+2015-05-12 19:59:52,043 [DEBUG] ConsoleUI.Program : Input sum: 230
+2015-05-12 19:59:52,043 [DEBUG] oop.Atm : Try otput 230
+2015-05-12 19:59:52,044 [INFO] oop.Atm : AllOk
+2015-05-12 19:59:52,044 [INFO] oop.Atm : ATM balance: 10470
+2015-05-19 21:54:10,129 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-19 21:54:10,159 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-19 21:54:10,169 [INFO] oop.CassetesLoader : AllOk
+2015-05-19 21:54:19,489 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-19 21:54:19,515 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-19 21:54:19,518 [INFO] oop.CassetesLoader : AllOk
+2015-05-19 21:54:39,665 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-19 21:54:39,691 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-19 21:54:39,693 [INFO] oop.CassetesLoader : AllOk
+2015-05-19 21:55:05,495 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-19 21:55:05,523 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-19 21:55:05,524 [INFO] oop.CassetesLoader : AllOk
+2015-05-19 21:55:30,935 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-19 21:55:30,964 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-19 21:55:30,966 [INFO] oop.CassetesLoader : AllOk
+2015-05-19 21:55:53,625 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-19 21:55:53,652 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-19 21:55:53,654 [INFO] oop.CassetesLoader : AllOk
+2015-05-19 21:56:13,417 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-19 21:56:13,446 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-19 21:56:13,448 [INFO] oop.CassetesLoader : AllOk
+2015-05-19 23:40:52,767 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-19 23:44:37,161 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-19 23:45:30,201 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-19 23:46:15,468 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-19 23:46:19,202 [FATAL] ConsoleUI.Program : Не удалось найти ресурсы, соответствующие указанной культуре или нейтральной культуре.  Проверьте правильность внедрения или связывания "ConsoleUI.Lang.Lang.resources" со сборкой "ConsoleUI" во время компиляции, или убедитесь, что все необходимые сопутствующие сборки полностью подписаны и могут быть загружены.
+2015-05-19 23:46:28,836 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-19 23:46:36,008 [FATAL] ConsoleUI.Program : Не удалось найти ресурсы, соответствующие указанной культуре или нейтральной культуре.  Проверьте правильность внедрения или связывания "ConsoleUI.Lang.Lang.resources" со сборкой "ConsoleUI" во время компиляции, или убедитесь, что все необходимые сопутствующие сборки полностью подписаны и могут быть загружены.
+2015-05-19 23:47:03,127 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-19 23:47:23,159 [DEBUG] ConsoleUI.Program : Input sum: 43
+2015-05-19 23:47:23,159 [DEBUG] oop.Atm : Try otput 43
+2015-05-19 23:47:23,190 [FATAL] ConsoleUI.Program : Значение не может быть неопределенным.
+Имя параметра: source
+2015-05-19 23:53:15,046 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-19 23:54:29,531 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 00:04:54,576 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 00:05:02,967 [FATAL] ConsoleUI.Program : Ссылка на объект не указывает на экземпляр объекта.
+2015-05-20 00:06:08,095 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 00:06:14,174 [FATAL] ConsoleUI.Program : Ссылка на объект не указывает на экземпляр объекта.
+2015-05-20 00:06:44,516 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 00:08:14,653 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 00:08:25,745 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 00:08:33,449 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-20 00:08:33,449 [INFO] oop.CassetesLoader : AllOk
+2015-05-20 00:09:18,673 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 00:09:24,639 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-20 00:09:24,654 [INFO] oop.CassetesLoader : AllOk
+2015-05-20 00:10:02,957 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 00:10:14,036 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-20 00:10:14,052 [INFO] oop.CassetesLoader : AllOk
+2015-05-20 00:11:34,327 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 00:11:41,015 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-20 00:11:41,030 [INFO] oop.CassetesLoader : AllOk
+2015-05-20 00:12:10,437 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 00:12:24,110 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-20 00:12:24,110 [INFO] oop.CassetesLoader : AllOk
+2015-05-20 00:13:20,659 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 00:13:26,846 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-20 00:13:26,846 [INFO] oop.CassetesLoader : AllOk
+2015-05-20 09:03:32,981 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 10:36:24,747 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 10:36:47,830 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-20 10:36:47,840 [INFO] oop.CassetesLoader : AllOk
+2015-05-20 10:37:21,943 [DEBUG] ConsoleUI.Program : Input sum: 150
+2015-05-20 10:37:21,946 [DEBUG] oop.Atm : Try otput 150
+2015-05-20 10:37:21,955 [INFO] oop.Atm : AllOk
+2015-05-20 10:37:21,955 [INFO] oop.Atm : ATM balance: 10950
+2015-05-20 10:38:38,279 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 11:09:36,693 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 11:09:49,357 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-20 11:09:49,381 [ERROR] oop.CassetesLoader : Error
+2015-05-20 11:10:49,154 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-20 11:10:49,162 [INFO] oop.CassetesLoader : AllOk
+2015-05-20 11:11:11,216 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-20 11:11:11,260 [INFO] oop.CassetesLoader : AllOk
+2015-05-20 11:12:45,405 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 11:13:06,300 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-20 11:13:06,302 [INFO] oop.CassetesLoader : AllOk
+2015-05-20 11:13:14,946 [DEBUG] ConsoleUI.Program : Input sum: 300
+2015-05-20 11:13:14,948 [DEBUG] oop.Atm : Try otput 300
+2015-05-20 11:13:14,954 [INFO] oop.Atm : AllOk
+2015-05-20 11:13:14,955 [INFO] oop.Atm : ATM balance: 10800
+2015-05-20 11:13:29,332 [DEBUG] ConsoleUI.Program : Input sum: 500
+2015-05-20 11:13:29,332 [DEBUG] oop.Atm : Try otput 500
+2015-05-20 11:13:29,332 [INFO] oop.Atm : AllOk
+2015-05-20 11:13:29,332 [INFO] oop.Atm : ATM balance: 10300
+2015-05-20 11:15:14,704 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 11:15:26,683 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-20 11:15:26,685 [INFO] oop.CassetesLoader : AllOk
+2015-05-20 11:15:34,059 [DEBUG] ConsoleUI.Program : Input sum: 500
+2015-05-20 11:15:34,061 [DEBUG] oop.Atm : Try otput 500
+2015-05-20 11:15:34,067 [INFO] oop.Atm : AllOk
+2015-05-20 11:15:34,068 [INFO] oop.Atm : ATM balance: 10600
+2015-05-20 11:15:37,724 [DEBUG] ConsoleUI.Program : Input sum: 300
+2015-05-20 11:15:37,724 [DEBUG] oop.Atm : Try otput 300
+2015-05-20 11:15:37,724 [INFO] oop.Atm : AllOk
+2015-05-20 11:15:37,724 [INFO] oop.Atm : ATM balance: 10300
+2015-05-20 11:24:52,450 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 11:26:47,848 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 11:27:29,769 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 11:49:46,433 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 11:50:00,551 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-20 11:50:00,610 [INFO] oop.CassetesLoader : AllOk
+2015-05-20 11:50:36,062 [DEBUG] ConsoleUI.Program : Input sum: 300
+2015-05-20 11:50:36,064 [DEBUG] oop.Atm : Try otput 300
+2015-05-20 11:50:36,070 [INFO] oop.Atm : AllOk
+2015-05-20 11:50:36,070 [INFO] oop.Atm : ATM balance: 26520
+2015-05-20 11:51:34,309 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 11:51:56,935 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-20 11:52:09,381 [DEBUG] ConsoleUI.Program : Input sum: 800
+2015-05-20 11:52:09,383 [DEBUG] oop.Atm : Try otput 800
+2015-05-20 11:52:09,389 [INFO] oop.Atm : AllOk
+2015-05-20 11:52:09,393 [INFO] oop.Atm : ATM balance: 25720
+2015-05-20 11:52:14,809 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-26 20:17:54,055 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-26 20:18:29,772 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-26 20:20:26,988 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-27 08:52:12,515 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-27 09:15:50,901 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-27 10:02:19,445 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-05-27 10:02:51,057 [INFO] oop.CassetesLoader : Try load cassetes
+2015-05-27 10:02:51,073 [INFO] oop.CassetesLoader : AllOk
+2015-05-27 10:03:43,974 [DEBUG] ConsoleUI.Program : Input sum: 340
+2015-05-27 10:03:43,974 [DEBUG] oop.Atm : Try otput 340
+2015-05-27 10:03:43,990 [INFO] oop.Atm : AllOk
+2015-05-27 10:03:43,990 [INFO] oop.Atm : ATM balance: 10760
+2015-06-02 09:46:39,852 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-02 09:47:00,491 [DEBUG] ConsoleUI.Program : Input sum: 400
+2015-06-02 09:47:00,493 [DEBUG] oop.Atm : Try otput 400
+2015-06-02 09:47:00,509 [INFO] oop.Atm : AllOk
+2015-06-02 09:47:00,513 [INFO] oop.Atm : ATM balance: 25320
+2015-06-02 09:47:03,035 [FATAL] ConsoleUI.Program : Данный ключ отсутствует в словаре.
+2015-06-02 09:49:21,667 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-02 09:49:21,792 [FATAL] ConsoleUI.Program : Данный ключ отсутствует в словаре.
+2015-06-02 09:49:35,727 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-02 09:49:58,765 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-02 10:19:03,020 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-02 10:19:11,511 [DEBUG] ConsoleUI.Program : Input sum: 230
+2015-06-02 10:19:11,511 [DEBUG] oop.Atm : Try otput 230
+2015-06-02 10:19:11,527 [INFO] oop.Atm : AllOk
+2015-06-02 10:19:11,527 [INFO] oop.Atm : ATM balance: 25490
+2015-06-02 10:19:37,871 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-02 10:56:27,960 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-02 10:57:55,922 [WARN] ConsoleUI.Program : Incorrect input
+2015-06-02 10:58:05,982 [DEBUG] ConsoleUI.Program : Input sum: 123
+2015-06-02 10:58:05,985 [DEBUG] oop.Atm : Try otput 123
+2015-06-02 10:58:05,993 [WARN] oop.Atm : CombinationFailed
+2015-06-02 10:58:05,996 [WARN] oop.Atm : ATM balance: 25720
+2015-06-02 11:13:27,860 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-02 11:13:32,673 [WARN] ConsoleUI.Program : Incorrect input
+2015-06-02 11:13:34,780 [DEBUG] ConsoleUI.Program : Input sum: 120
+2015-06-02 11:13:34,782 [DEBUG] oop.Atm : Try otput 120
+2015-06-02 11:13:34,786 [WARN] oop.Atm : Sum120> Total Sum
+2015-06-02 11:13:50,019 [INFO] oop.Input.CassetesLoader : Try load cassetes
+2015-06-02 11:13:50,021 [INFO] oop.Input.CassetesLoader : AllOk
+2015-06-02 11:13:55,721 [DEBUG] ConsoleUI.Program : Input sum: 120
+2015-06-02 11:13:55,721 [DEBUG] oop.Atm : Try otput 120
+2015-06-02 11:13:55,729 [INFO] oop.Atm : AllOk
+2015-06-02 11:13:55,729 [INFO] oop.Atm : ATM balance: 10980
+2015-06-02 11:13:59,303 [WARN] ConsoleUI.Program : Incorrect input
+2015-06-02 11:14:01,259 [DEBUG] ConsoleUI.Program : Input sum: 120
+2015-06-02 11:14:01,259 [DEBUG] oop.Atm : Try otput 120
+2015-06-02 11:14:01,259 [INFO] oop.Atm : AllOk
+2015-06-02 11:14:01,260 [INFO] oop.Atm : ATM balance: 10860
+2015-06-02 22:24:32,562 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-02 22:25:52,724 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-02 22:26:16,795 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-02 22:27:26,472 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-02 22:29:36,511 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-02 22:32:11,128 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-02 22:33:01,095 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-02 22:33:37,243 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-02 22:33:41,957 [DEBUG] ConsoleUI.Program : Input sum: 100
+2015-06-02 22:33:41,959 [DEBUG] oop.Atm : Try otput 100
+2015-06-02 22:33:41,963 [WARN] oop.Atm : Sum100> Total Sum
+2015-06-02 22:34:08,076 [INFO] oop.Input.CassetesLoader : Try load cassetes
+2015-06-02 22:34:08,078 [INFO] oop.Input.CassetesLoader : AllOk
+2015-06-02 22:34:18,457 [DEBUG] ConsoleUI.Program : Input sum: 1000
+2015-06-02 22:34:18,457 [DEBUG] oop.Atm : Try otput 1000
+2015-06-02 22:34:18,465 [INFO] oop.Atm : AllOk
+2015-06-02 22:34:18,465 [INFO] oop.Atm : ATM balance: 10100
+2015-06-02 22:40:47,802 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-02 22:42:48,558 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-02 22:43:00,199 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-02 22:43:07,573 [DEBUG] ConsoleUI.Program : Input sum: 100
+2015-06-02 22:43:07,575 [DEBUG] oop.Atm : Try otput 100
+2015-06-02 22:43:07,578 [WARN] oop.Atm : Sum100> Total Sum
+2015-06-02 22:43:23,935 [INFO] oop.Input.CassetesLoader : Try load cassetes
+2015-06-02 22:43:23,937 [INFO] oop.Input.CassetesLoader : AllOk
+2015-06-02 22:43:30,911 [DEBUG] ConsoleUI.Program : Input sum: 1000
+2015-06-02 22:43:30,911 [DEBUG] oop.Atm : Try otput 1000
+2015-06-02 22:43:30,919 [INFO] oop.Atm : AllOk
+2015-06-02 22:43:30,919 [INFO] oop.Atm : ATM balance: 10100
+2015-06-02 22:44:04,431 [DEBUG] ConsoleUI.Program : Input sum: 100
+2015-06-02 22:44:04,431 [DEBUG] oop.Atm : Try otput 100
+2015-06-02 22:44:04,431 [INFO] oop.Atm : AllOk
+2015-06-02 22:44:04,431 [INFO] oop.Atm : ATM balance: 9100
+2015-06-03 09:02:56,285 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-03 09:03:09,352 [DEBUG] ConsoleUI.Program : Input sum: 100
+2015-06-03 09:03:09,354 [DEBUG] oop.Atm : Try otput 100
+2015-06-03 09:03:09,360 [INFO] oop.Atm : AllOk
+2015-06-03 09:03:09,364 [INFO] oop.Atm : ATM balance: 9000
+2015-06-03 09:03:13,594 [WARN] ConsoleUI.Program : Incorrect input
+2015-06-03 09:03:17,293 [DEBUG] ConsoleUI.Program : Input sum: 300
+2015-06-03 09:03:17,293 [DEBUG] oop.Atm : Try otput 300
+2015-06-03 09:03:17,294 [INFO] oop.Atm : AllOk
+2015-06-03 09:03:17,294 [INFO] oop.Atm : ATM balance: 8700
+2015-06-03 09:04:07,030 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-03 09:05:10,406 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-03 09:05:15,133 [DEBUG] ConsoleUI.Program : Input sum: 100
+2015-06-03 09:05:15,135 [DEBUG] oop.Atm : Try otput 100
+2015-06-03 09:05:15,149 [INFO] oop.Atm : AllOk
+2015-06-03 09:05:15,153 [INFO] oop.Atm : ATM balance: 9000
+2015-06-03 09:05:22,543 [DEBUG] oop.Atm : Try otput 100
+2015-06-03 09:05:22,543 [INFO] oop.Atm : AllOk
+2015-06-03 09:05:22,543 [INFO] oop.Atm : ATM balance: 8900
+2015-06-03 09:07:15,206 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-03 09:07:18,680 [DEBUG] ConsoleUI.Program : Input sum: 100
+2015-06-03 09:07:18,682 [DEBUG] oop.Atm : Try otput 100
+2015-06-03 09:07:18,696 [INFO] oop.Atm : AllOk
+2015-06-03 09:07:18,701 [INFO] oop.Atm : ATM balance: 9000
+2015-06-03 09:07:21,910 [DEBUG] ConsoleUI.Program : Input sum: 300
+2015-06-03 09:07:21,910 [DEBUG] oop.Atm : Try otput 300
+2015-06-03 09:07:21,911 [INFO] oop.Atm : AllOk
+2015-06-03 09:07:21,911 [INFO] oop.Atm : ATM balance: 8700
+2015-06-03 09:08:51,837 [INFO] ConsoleUI.Program : <<Begin program>>
+2015-06-03 09:08:55,031 [DEBUG] ConsoleUI.Program : Input sum: 100
+2015-06-03 09:08:55,033 [DEBUG] oop.Atm : Try otput 100
+2015-06-03 09:08:55,047 [INFO] oop.Atm : AllOk
+2015-06-03 09:08:55,051 [INFO] oop.Atm : ATM balance: 9000
+2015-06-03 09:09:06,470 [DEBUG] ConsoleUI.Program : Input sum: 320
+2015-06-03 09:09:06,471 [DEBUG] oop.Atm : Try otput 320
+2015-06-03 09:09:06,471 [INFO] oop.Atm : AllOk
+2015-06-03 09:09:06,471 [INFO] oop.Atm : ATM balance: 8680

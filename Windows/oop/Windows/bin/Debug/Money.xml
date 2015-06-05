@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cassete>
+    <Nominal>200</Nominal>
+    <Count>67</Count>
+  </Cassete>
+  <Cassete>
+    <Nominal>100</Nominal>
+    <Count>78</Count>
+  </Cassete>
+  <Cassete>
+    <Nominal>50</Nominal>
+    <Count>90</Count>
+  </Cassete>
+  <Cassete>
+    <Nominal>20</Nominal>
+    <Count>56</Count>
+  </Cassete>
+</xml>

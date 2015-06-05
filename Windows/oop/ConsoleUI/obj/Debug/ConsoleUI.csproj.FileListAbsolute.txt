@@ -1,0 +1,16 @@
+C:\Users\Дмитрий\Documents\лабы\oop\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Users\Дмитрий\Documents\лабы\oop\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\Дмитрий\Documents\лабы\oop\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\Дмитрий\Documents\лабы\oop\ConsoleUI\bin\Debug\log4net.dll
+C:\Users\Дмитрий\Documents\лабы\oop\ConsoleUI\bin\Debug\oop.dll
+C:\Users\Дмитрий\Documents\лабы\oop\ConsoleUI\bin\Debug\oop.pdb
+C:\Users\Дмитрий\Documents\лабы\oop\ConsoleUI\obj\Debug\ConsoleUI.csprojResolveAssemblyReference.cache
+C:\Users\Дмитрий\Documents\лабы\oop\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Users\Дмитрий\Documents\лабы\oop\ConsoleUI\obj\Debug\ConsoleUI.pdb
+C:\Users\Дмитрий\Documents\лабы\oop\ConsoleUI\bin\Debug\en\ConsoleUI.resources.dll
+C:\Users\Дмитрий\Documents\лабы\oop\ConsoleUI\bin\Debug\ru\ConsoleUI.resources.dll
+C:\Users\Дмитрий\Documents\лабы\oop\ConsoleUI\obj\Debug\ConsoleUI.Lang.Lang.en.resources
+C:\Users\Дмитрий\Documents\лабы\oop\ConsoleUI\obj\Debug\ConsoleUI.Lang.Lang.ru.resources
+C:\Users\Дмитрий\Documents\лабы\oop\ConsoleUI\obj\Debug\ConsoleUI.csproj.GenerateResource.Cache
+C:\Users\Дмитрий\Documents\лабы\oop\ConsoleUI\obj\Debug\en\ConsoleUI.resources.dll
+C:\Users\Дмитрий\Documents\лабы\oop\ConsoleUI\obj\Debug\ru\ConsoleUI.resources.dll
